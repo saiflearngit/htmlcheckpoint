@@ -15,22 +15,44 @@
         <a href="#resume">resume</a>
         <a href="#contact">contact</a>
     </nav>
-    <form action=""> <!--cannot understand the need of using the form tag-->
+     
     <div name="about" id="about">
-        <br><br><br><p>about</p><br><br><br><br>
+        <br><br><br><h1>about</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, adipisci quod sunt itaque numquam nobis totam? Autem recusandae, ullam voluptatum, eaque nobis ad voluptas pariatur deleniti fuga suscipit, laboriosam ut.</p>
 
     </div>
     <div name="work" id="work">
-        <br><br><br><p>work</p><br><br><br><br>
+        <br><br><br><p>  work</p><br><br><br><br>
+        <img src="https://cdn.futura-sciences.com/buildsv6/images/wide1920/6/5/2/652a7adb1b_98148_01-intro-773.jpg" alt=""
+        width="40%">
 
     </div>
     <div name="resume" id="resume">
-        <br><br><br><p>resume</p><br><br><br><br>
+       <h1>resume</h1>
+       <iframe width="853" height="480" src="https://www.youtube.com/embed/4boXExbbGCk" title="a fresh new web framework is out" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
+    <form action="">
     <div name="contact" id="contact">
-        <br><br><br><p>contact</p><br><br><br><br>
 
+        <br><br><br><p>contact</p><br><br><br><br>
+        <label for="tel">tel</label>
+        <input type="text" name="tel" id="tel"><br>
+        <label for="email">email</label>
+        <input type="text" name="email" id="email">
+        <input type="submit" value="submit" name="contctsub" id="contctsub"><br>
+        
+        <input type="radio" id="homme" name="genre" value="0">
+        <label for="homme">homme</label>
+        <input type="radio" id="femme" name="genre" value="1">
+        <label for="femme">femme</label><br>
+        <p>
+            <span>occupation</span><br>
+            <input type="checkbox" id="student" name="student">
+            <label for="student">student</label>
+            <input type="checkbox" id="worker" name="worker">
+            <label for="worker">worker</label>
+        </p>
     </div>
    
     </form>
