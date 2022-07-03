@@ -1,0 +1,13 @@
+.titre{
+    text-align: center;
+    color: red;
+}
+
+.para{
+    display: inline-block;
+    width: 50%;
+}
+
+h1:hover{
+   color: green;
+}
